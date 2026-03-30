@@ -1,0 +1,37 @@
+=== Task 4: Navigation with Paths ===
+--- Absolute path to HR/policies ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/hr/policies
+leave_policy.txt
+remote_work.txt
+--- Up to hr/ ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/hr
+--- Relative path to onboarding/ ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/hr/onboarding
+checklist.txt
+welcome_guide.txt
+--- Sideways to engineering/frontend/ ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/engineering/frontend
+app_config.txt
+index.html
+styles.css
+--- Up two levels to techcorp/ ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp
+--- Absolute path to marketing/campaigns/ ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/marketing/campaigns
+q1_launch.txt
+social_media.txt
+--- cd - (back to previous directory) ---
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp
+--- Challenge Navigation ---
+8a. Relative path to engineering/backend
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/engineering/backend
+8b. From backend to marketing/assets using .. only
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/marketing/assets
+8c. Absolute path to /usr/bin
+/usr/bin
+8d. Return to previous directory using cd -
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/marketing/assets
+8e. Navigate to techcorp/hr/onboarding
+/home/van-heng/os-se-p20240035/os-lab-p20240035/lab2/techcorp/hr/onboarding
+checklist.txt
+welcome_guide.txt
