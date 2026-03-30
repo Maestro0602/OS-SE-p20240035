@@ -1,3 +1,0 @@
-none
-6.17.0-14-generic
-Maestro
