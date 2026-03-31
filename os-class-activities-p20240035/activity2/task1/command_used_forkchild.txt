@@ -1,0 +1,20 @@
+ 1143  echo "HELLO WORLD FROM TECHCORP" | tr 'A-Z' 'a-z' >> task2_pipelines.txt\
+ 1144  echo "HELLO WORLD FROM TECHCORP" | tr 'A-Z' 'a-z' >> task2_pipelines.txt
+ 1145  echo "--- Remove duplicate spaces ---" >> task2_pipelines.txt
+ 1146  echo "too    many     spaces    here" | tr -s ' ' >> task2_pipelines.txt
+ 1147  {  echo "--- Challenge Pipelines ---" >> task2_pipelines.txt; ls -la /etc | grep '^d' | wc -l >> task2_pipelines.txt; cat /etc/passwd | cut -d: -f1 | sort | tail -n 5 >> task2_pipelines.txt; find /etc -name "*.conf" 2>/dev/null | wc -l >> task2_pipelines.txt; }
+ 1148  cd ..
+ 1149  git add .
+ 1150  git commit -m "for now" 
+ 1151  git push origin master
+ 1152  ls
+ 1153  cd os-class-activities-p20240035/
+ 1154  ls
+ 1155  cd activity2/task1
+ 1156  gcc -o forkchild forkchild.c
+ 1157  ./forkchild > result_forkchild.txt 2>&1
+ 1158  cat result_forkchild.txt
+ 1159  ls
+ 1160  ps -ef --forest | grep forkchild
+ 1161  pstree -p $(pgrep -o forkchild)
+ 1162  history | tail -n 20 > command_used_forkchild.txt

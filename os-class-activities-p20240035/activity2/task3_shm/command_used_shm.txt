@@ -1,0 +1,20 @@
+ 1164  mkdir task3_shm
+ 1165  cd task3_shm/
+ 1166  cd ..
+ 1167  rm task3_shm/
+ 1168  rm task3_shm
+ 1169  ls
+ 1170  cd ..
+ 1171  mkdir task3_shm
+ 1172  cd task3_shm/
+ 1173  gcc -o shm-producer shm-producer.c -lrt
+ 1174  gcc -o shm-consumer shm-consumer.c -lrt
+ 1175  gcc -o shm-producer shm-producer.c -lrt
+ 1176  gcc -o shm-consumer shm-consumer.c -lrt
+ 1177  # Step 1: Run the producer (writes to shared memory)
+ 1178  ./shm-producer
+ 1179  # Step 2: Run the consumer (reads from shared memory and saves output)
+ 1180  ./shm-consumer > result-shm-ipc.txt
+ 1181  # View the result
+ 1182  cat result-shm-ipc.txt
+ 1183  history | tail -n 20 > command_used_shm.txt
