@@ -1,0 +1,10 @@
+total 32
+drwxrwxr-x 2 van-heng van-heng  4096 Apr  9 20:18 .
+drwxrwxr-x 3 van-heng van-heng  4096 Apr  9 20:16 ..
+-rwxrwxr-x 1 van-heng van-heng 16400 Apr  9 20:18 forkchild
+-rw-rw-r-- 1 van-heng van-heng  1430 Apr  9 20:17 forkchild.c
+-rw-rw-r-- 1 van-heng van-heng     0 Apr  9 20:18 result_forkchild.txt
+Parent process (PID: 5871) — creating child...
+Parent: waiting for child (PID: 5872) to finish...
+Parent: child exited with status 0
+Parent: done.
