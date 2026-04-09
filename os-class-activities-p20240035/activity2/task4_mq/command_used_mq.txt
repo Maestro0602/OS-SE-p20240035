@@ -1,0 +1,20 @@
+ 1183  history | tail -n 20 > command_used_shm.txt
+ 1184  cd ..
+ 1185  mkdir task4_mq
+ 1186  cd task4_mq/
+ 1187  gcc -o sender sender.c -lrt
+ 1188  gcc -o receiver receiver.c -lrt
+ 1189  gcc -o sender sender.c -lrt
+ 1190  gcc -o receiver receiver.c -lrt
+ 1191  gcc -o sender sender.c -lrt
+ 1192  gcc -o receiver receiver.c -lrt
+ 1193  [200~gcc -o sender sender.c -lrt
+ 1194  gcc -o sender sender.c -lrt
+ 1195  gcc -o receiver receiver.c -lrt
+ 1196  # Step 1: Run the sender (puts a message in the queue)
+ 1197  ./sender
+ 1198  # Step 2: Run the receiver (reads the message and saves output)
+ 1199  ./receiver > result-mq-ipc.txt
+ 1200  # View the result
+ 1201  cat result-mq-ipc.txt
+ 1202  history | tail -n 20 > command_used_mq.txt
