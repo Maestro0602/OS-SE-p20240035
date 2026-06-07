@@ -1,0 +1,4 @@
+=== inbox permissions ===
+drwx-wx-wx 2 se-theng-van-heng se-theng-van-heng 4096 Jun  7 12:15 /home/se-theng-van-heng/public_inbox
+=== inbox files as owner ===
+-rw-r--r-- 1 se-suon-caro se-suon-caro 0 Jun  7 12:16 test_from_se-suon-caro.txt

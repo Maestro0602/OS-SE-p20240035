@@ -1,0 +1,10 @@
+=== mailman output ===
+Sent message to se-suon-caro
+Sent message to se-lor-hengrith
+Sent message to se-rith-chankolboth
+Messages sent: 3
+=== my inbox ===
+total 4
+-rw-r--r-- 1 se-suon-caro se-suon-caro 92 Jun  7 12:46 message_from_se-suon-caro.txt
+=== messages I received ===
+Hello se-theng-van-heng, I am an automated bot written by se-suon-caro. I successfully read your secret word: scheduler.
