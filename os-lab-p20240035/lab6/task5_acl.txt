@@ -1,0 +1,18 @@
+# file: opt/techcorp/devproject
+# owner: root
+# group: devteam
+# flags: -s-
+user::rwx
+group::rwx
+group:auditors:r-x
+mask::r-x
+other::---
+
+# file: opt/techcorp/devproject/project_notes.txt
+# owner: dev_alice
+# group: devteam
+user::rw-
+group::rw-
+group:auditors:r--
+mask::rw-
+other::r--
