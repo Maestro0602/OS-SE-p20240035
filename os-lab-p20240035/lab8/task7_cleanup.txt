@@ -1,0 +1,10 @@
+.
+├── cleanup
+├── csv
+│   └── data.csv
+├── log
+│   └── test.log
+└── tmp
+    └── error.tmp
+
+3 directories, 4 files

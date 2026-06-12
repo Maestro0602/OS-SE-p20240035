@@ -1,0 +1,20 @@
+=== public api permissions ===
+drwxr-x--x 10 se-theng-van-heng se-theng-van-heng 4096 Jun 12 10:50 /home/se-theng-van-heng
+drwxr-xr-x 2 se-theng-van-heng se-theng-van-heng 4096 Jun 12 10:55 /home/se-theng-van-heng/public_api
+-rwxr-xr-x 1 se-theng-van-heng se-theng-van-heng 820 Jun 12 10:55 /home/se-theng-van-heng/public_api/buy_widget
+-rw-rw-rw- 1 se-theng-van-heng se-theng-van-heng 2 Jun 12 11:00 /home/se-theng-van-heng/public_api/inventory.txt
+-rw-rw-rw- 1 se-theng-van-heng se-theng-van-heng 1000 Jun 12 11:00 /home/se-theng-van-heng/public_api/sales.log
+-rw-rw-rw- 1 se-theng-van-heng se-theng-van-heng 0 Jun 12 10:55 /home/se-theng-van-heng/public_api/inventory.lock
+=== inventory ===
+0
+=== red team sales evidence ===
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_41 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_42 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_43 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_44 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_45 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_46 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_47 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_48 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_49 bought 2 widgets.
+[p20240035] [SUCCESS] RedTeam_se-lor-hengrith_50 bought 2 widgets.

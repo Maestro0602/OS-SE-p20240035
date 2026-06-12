@@ -1,0 +1,7 @@
+=== drop zone permissions ===
+drwxr-xrwt 2 se-theng-van-heng se-theng-van-heng 4096 Jun 12 11:15 /home/se-theng-van-heng/vendor_reports
+=== drop zone files ===
+-rw-r--r-- 1 se-theng-van-heng se-theng-van-heng 23 Jun 12 11:16 my_rules.txt
+-rw-rw-r-- 1 se-lor-hengrith   se-lor-hengrith   14 Jun 12 11:18 partner_report.txt
+=== partner deletion result ===
+rm: cannot remove '/home/se-theng-van-heng/vendor_reports/my_rules.txt': Operation not permitted

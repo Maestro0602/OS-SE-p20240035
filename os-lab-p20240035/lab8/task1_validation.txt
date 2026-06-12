@@ -1,0 +1,6 @@
+=== missing argument test ===
+Usage: buy_widget <username> <quantity>
+=== invalid quantity test ===
+Error: quantity must be a positive integer.
+=== script permissions ===
+-rwxr-xr-x 1 se-theng-van-heng se-theng-van-heng 820 Jun 12 10:20 /home/se-theng-van-heng/bin/buy_widget

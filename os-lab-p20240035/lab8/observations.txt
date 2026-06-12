@@ -1,0 +1,8 @@
+Run 1 final inventory: 86
+Run 2 final inventory: 92
+Run 3 final inventory: 88
+Run 4 final inventory: 90
+Run 5 final inventory: 94
+
+Explanation:
+The inconsistent final inventory values occur because of a Time-of-Check to Time-of-Use (TOC-TOU) race condition. Multiple concurrent background processes check the inventory value from inventory.txt at nearly the same time, read the same value (e.g. 100), compute the update (e.g. 100 - 2 = 98) in parallel, and then write back 98, overwriting each other's updates. The OS scheduler interleaves the execution of these checks and writes arbitrarily, leading to lost updates and a final inventory that is significantly higher than 0.
