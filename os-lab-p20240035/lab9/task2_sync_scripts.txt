@@ -1,0 +1,13 @@
+=== sync script permissions ===
+-rwxr-xr-x 1 se-theng-van-heng se-theng-van-heng 480 Jun 15 10:05 /home/se-theng-van-heng/bin/sync_up
+-rwxr-xr-x 1 se-theng-van-heng se-theng-van-heng 480 Jun 15 10:05 /home/se-theng-van-heng/bin/sync_down
+=== sync_up lock order ===
+echo "sync_up: waiting for Vault Alpha"
+echo "sync_up: locked Vault Alpha"
+echo "sync_up: waiting for Vault Beta"
+echo "sync_up: locked Vault Beta"
+=== sync_down lock order ===
+echo "sync_down: waiting for Vault Beta"
+echo "sync_down: locked Vault Beta"
+echo "sync_down: waiting for Vault Alpha"
+echo "sync_down: locked Vault Alpha"

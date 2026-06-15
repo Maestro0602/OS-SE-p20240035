@@ -1,0 +1,11 @@
+=== working folder ===
+/home/se-theng-van-heng/os-lab-deadlock
+=== vault directories ===
+drwxr-xr-x 2 se-theng-van-heng se-theng-van-heng 4096 Jun 15 10:01 /home/se-theng-van-heng/os-lab-deadlock/vault_alpha
+drwxr-xr-x 2 se-theng-van-heng se-theng-van-heng 4096 Jun 15 10:01 /home/se-theng-van-heng/os-lab-deadlock/vault_beta
+=== vault lock files ===
+-rw-r--r-- 1 se-theng-van-heng se-theng-van-heng 0 Jun 15 10:02 /home/se-theng-van-heng/os-lab-deadlock/vault_alpha/vault.lock
+-rw-r--r-- 1 se-theng-van-heng se-theng-van-heng 0 Jun 15 10:02 /home/se-theng-van-heng/os-lab-deadlock/vault_beta/vault.lock
+=== vault marker files ===
+Vault Alpha local resource for p20240035
+Vault Beta local resource for p20240035

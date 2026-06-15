@@ -1,0 +1,15 @@
+=== teardown script ===
+-rwxr-xr-x 1 se-theng-van-heng se-theng-van-heng 320 Jun 15 10:45 /home/se-theng-van-heng/bin/teardown
+=== process check ===
+No sync processes found.
+=== final working folder ===
+/home/se-theng-van-heng/os-lab-deadlock
+/home/se-theng-van-heng/os-lab-deadlock/README.md
+/home/se-theng-van-heng/os-lab-deadlock/public_dr_alpha
+/home/se-theng-van-heng/os-lab-deadlock/public_dr_alpha/vault.lock
+/home/se-theng-van-heng/os-lab-deadlock/vault_alpha
+/home/se-theng-van-heng/os-lab-deadlock/vault_alpha/README.txt
+/home/se-theng-van-heng/os-lab-deadlock/vault_alpha/vault.lock
+/home/se-theng-van-heng/os-lab-deadlock/vault_beta
+/home/se-theng-van-heng/os-lab-deadlock/vault_beta/README.txt
+/home/se-theng-van-heng/os-lab-deadlock/vault_beta/vault.lock
